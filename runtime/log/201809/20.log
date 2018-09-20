@@ -1,0 +1,384 @@
+[ 2018-09-20T09:10:13+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：1.452189s][吞吐率：0.69req/s] [内存消耗：2,951.52kb] [文件加载：82]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; monitor_count=2; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537405798',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\sources\xcx\youge\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'sucaishui'@'localhost' (using password: YES)[E:\sources\xcx\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2018-09-20T09:13:57+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：1.351953s][吞吐率：0.74req/s] [内存消耗：3,294.67kb] [文件加载：84]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; monitor_count=3; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537405814',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\sources\xcx\youge\home\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\sources\xcx/youge/home\view\index\index.html [ array (
+  0 => 'footer',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-20T09:14:08+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.114001s][吞吐率：8.77req/s] [内存消耗：2,018.93kb] [文件加载：71]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; monitor_count=4; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537406040',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-20T09:14:08+08:00 ] ::1 ::1 GET /admin/login/index.html
+[ log ] localhost/admin/login/index.html [运行时间：0.104995s][吞吐率：9.52req/s] [内存消耗：2,205.94kb] [文件加载：75]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; monitor_count=4; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537406040; PHPSESSID=fjngjpn7df8tted08majmap7a7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\sources\xcx\youge\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\sources\xcx/youge/admin\view\login\index.html [ array (
+  0 => 'leftCheck',
+  1 => 'urlHere',
+  2 => 'leftMenus',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-20T09:14:17+08:00 ] ::1 ::1 POST /admin/login/loging.html
+[ log ] localhost/admin/login/loging.html [运行时间：1.287649s][吞吐率：0.78req/s] [内存消耗：3,122.71kb] [文件加载：86]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'loging',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'https://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'https://localhost/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; PHPSESSID=fjngjpn7df8tted08majmap7a7; monitor_count=5; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537406050',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '111111aa',
+)
+[ info ] [ SESSION ] INIT array (
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Login->loging[ E:\sources\xcx\youge\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-20T09:14:22+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：1.368489s][吞吐率：0.73req/s] [内存消耗：3,206.80kb] [文件加载：85]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'https://localhost/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; PHPSESSID=fjngjpn7df8tted08majmap7a7; monitor_count=5; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537406050',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\sources\xcx\youge\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\sources\xcx/youge/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'adminRole',
+  2 => 'leftCheck',
+  3 => 'urlHere',
+  4 => 'leftMenus',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-20T09:14:23+08:00 ] ::1 ::1 GET /admin/index/main
+[ log ] localhost/admin/index/main [运行时间：1.358312s][吞吐率：0.74req/s] [内存消耗：3,142.70kb] [文件加载：84]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'https://localhost/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; PHPSESSID=fjngjpn7df8tted08majmap7a7; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537406050; monitor_count=6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->main[ E:\sources\xcx\youge\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\sources\xcx/youge/admin\view\index\main.html [ array (
+  0 => 'adminInfo',
+  1 => 'adminRole',
+  2 => 'leftCheck',
+  3 => 'urlHere',
+  4 => 'leftMenus',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-20T09:14:33+08:00 ] ::1 ::1 GET /admin/miniapp.miniapp/index.html
+[ log ] localhost/admin/miniapp.miniapp/index.html [运行时间：1.371023s][吞吐率：0.73req/s] [内存消耗：3,509.80kb] [文件加载：89]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'miniapp.miniapp',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'https://localhost/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; PHPSESSID=fjngjpn7df8tted08majmap7a7; monitor_count=6; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537406063',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\miniapp\Miniapp->index[ E:\sources\xcx\youge\admin\controller\miniapp\Miniapp.php ]
+[ info ] [ VIEW ] E:\sources\xcx/youge/admin\view\miniapp\miniapp\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'adminRole',
+  2 => 'leftCheck',
+  3 => 'urlHere',
+  4 => 'leftMenus',
+  5 => 'search',
+  6 => 'list',
+  7 => 'page',
+  8 => 'totalNum',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-20T09:14:46+08:00 ] ::1 ::1 GET /admin/admin.admin/index.html
+[ log ] localhost/admin/admin.admin/index.html [运行时间：1.377983s][吞吐率：0.73req/s] [内存消耗：3,452.62kb] [文件加载：91]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'https://localhost/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; PHPSESSID=fjngjpn7df8tted08majmap7a7; monitor_count=6; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537406063',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\admin\Admin->index[ E:\sources\xcx\youge\admin\controller\admin\Admin.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\sources\xcx/youge/admin\view\admin\admin\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'adminRole',
+  2 => 'leftCheck',
+  3 => 'urlHere',
+  4 => 'leftMenus',
+  5 => 'search',
+  6 => 'list',
+  7 => 'page',
+  8 => 'totalNum',
+  9 => 'roles',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-09-20T09:14:53+08:00 ] ::1 ::1 GET /admin/admin.role/index.html
+[ log ] localhost/admin/admin.role/index.html [运行时间：1.317049s][吞吐率：0.76req/s] [内存消耗：3,346.07kb] [文件加载：88]
+[ info ] [ LANG ] E:\sources\xcx\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'https://localhost/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.730766394193844100.1535339227179.8389; szhlcode=_Kle0ErPNzKc0KSgdLk_uKW1zrjl6Eyyh3vR0YIu8A7Lmq8k5zR1uEswbib19sqIPnjIEsoR6o99MD1-CXA2Fw; username=administrator; zt=0; fileapi=; PHPSESSID=fjngjpn7df8tted08majmap7a7; monitor_count=6; Hm_lvt_df17baab2895cc586cda96cfc3bb3f95=1536637337,1536719295,1536831356,1537405728; Hm_lpvt_df17baab2895cc586cda96cfc3bb3f95=1537406063',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\admin\Role->index[ E:\sources\xcx\youge\admin\controller\admin\Role.php ]
+[ info ] [ VIEW ] E:\sources\xcx/youge/admin\view\admin\role\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'adminRole',
+  2 => 'leftCheck',
+  3 => 'urlHere',
+  4 => 'leftMenus',
+  5 => 'search',
+  6 => 'list',
+  7 => 'page',
+  8 => 'totalNum',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
